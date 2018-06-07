@@ -1,0 +1,45 @@
+/*body {
+    background-color: #fff;
+}*/
+
+.hollisPlus {
+    display: table-cell;
+}
+
+.boxHollis {
+    padding-top:5px;
+    margin-left:34px;
+    white-space: nowrap;
+}
+
+.hollisPlus prm-logo .logo-image, prm-logo img {
+    max-height: 100%;
+    height: 82px;
+    width: 110px;
+    margin-top: 10px;
+}
+
+#getit {
+    font-size:40px;
+    vertical-align: top;
+    padding-left: 10px;
+    font-family:"Trueno";
+    color:#000;
+}
+
+prm-topbar .top-nav-bar {
+    background-color:#fff;
+}
+
+/* resource icon, book cover */
+prm-full-view prm-brief-result-container .result-item-image {
+    display:none;
+}
+/* nav jump menu in full display page */
+prm-full-view-cont prm-full-view .services-index-under {
+    display:none;
+}
+/* view it sign in alert bar */
+prm-login-alma-mashup .alert-bar {
+    display:none;  
+}
