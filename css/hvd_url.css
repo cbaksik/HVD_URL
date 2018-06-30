@@ -30,7 +30,10 @@
 prm-topbar .top-nav-bar {
     background-color:#fff;
 }
-
+prm-full-view-cont .topbar-wrapper {
+    -webkit-box-shadow: 0 5px 5px rgba(30, 30, 30, 0.1);
+    box-shadow: 0 5px 5px rgba(30, 30, 30, 0.1);
+}
 /* resource icon, book cover */
 prm-full-view prm-brief-result-container .result-item-image {
     display:none;
@@ -43,3 +46,9 @@ prm-full-view-cont prm-full-view .services-index-under {
 /* prm-login-alma-mashup .alert-bar {
     display:none;  
 }*/
+prm-services-page .full-view-inner-container {
+    background-color:#f3f3f3;
+}
+div#tags {
+    display:none;
+}
