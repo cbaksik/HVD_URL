@@ -35,17 +35,17 @@ prm-full-view-cont .topbar-wrapper {
     box-shadow: 0 5px 5px rgba(30, 30, 30, 0.1);
 }
 /* resource icon, book cover */
-prm-full-view prm-brief-result-container .result-item-image {
+/* prm-full-view prm-brief-result-container .result-item-image {
     display:none;
-}
+} */
 /* nav jump menu in full display page */
 prm-full-view-cont prm-full-view .services-index-under {
     display:none;
 }
-/* view it sign in alert bar ; can't hide this b/c you don't see ILL option unless you're signed in */
-/* prm-login-alma-mashup .alert-bar {
+/* view it sign in alert bar ; make sure there is GES for non-signed in users*/
+prm-login-alma-mashup .alert-bar {
     display:none;  
-}*/
+}
 prm-services-page .full-view-inner-container {
     background-color:#f3f3f3;
 }
