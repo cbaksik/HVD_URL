@@ -1,35 +1,82 @@
 /*body {
     background-color: #fff;
 }*/
-
 .hollisPlus {
     display: table-cell;
 }
 
 .boxHollis {
-    padding-top:5px;
+    padding-top:8px;
     margin-left:34px;
     white-space: nowrap;
 }
 
 .hollisPlus prm-logo .logo-image, prm-logo img {
     max-height: 100%;
-    height: 82px;
+    height: 75px;
     width: 110px;
     margin-top: 10px;
 }
-
-#getit {
-    font-size:40px;
-    vertical-align: top;
-    padding-left: 10px;
-    font-family:"Trueno";
-    color:#000;
+.topMenu {
+    background:#ffffff;
+    color: #ffffff !important;
+    height:50px;
 }
 
+.hollisLogo {
+    margin-bottom:-5px;
+}
+
+#getit {
+    font-size:32px;
+    vertical-align: top;
+    padding: 10px 15px;
+    font-family:"Trueno",sans-serif;
+    color:#1e1e1e;
+    background-color:#fff;
+    text-transform:uppercase;
+    border-radius: 8px;
+    font-weight: 700;
+    letter-spacing: 0.075em;
+    line-height: 1.3;
+    margin-top: 8px;
+    display: inline-block;
+    /* border-bottom:5px solid #2076b4; */
+}
+prm-topbar {
+    height: 68px;
+}
 prm-topbar .top-nav-bar {
     background-color:#fff;
 }
+#hollisLogoTopbar {
+    font-size:42px;
+    vertical-align: top;
+    padding-left: 10px;
+}
+a#hollisLogoTopbar {
+    color:#fff;
+    font-family:"Trueno";
+}
+/* new for August release , user area */
+/* prm-user-area-expandable {
+    background-color: rgba(58,58,58,.12);
+} */
+prm-user-area-expandable .md-button {
+    color:#026DB9;
+    font-weight:600;
+    font-size: 1em;
+    border-left: white solid 1px;
+}
+prm-user-area-expandable .md-button.user-button {
+    color: #026DB9;
+}
+.md-button.button-with-menu-arrow .menu-arrow:after {
+    top:-20px;
+    display:inline-block;
+    position: inherit;
+}
+/* content below header */
 prm-full-view-cont .topbar-wrapper {
     -webkit-box-shadow: 0 5px 5px rgba(30, 30, 30, 0.1);
     box-shadow: 0 5px 5px rgba(30, 30, 30, 0.1);
