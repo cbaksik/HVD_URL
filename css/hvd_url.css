@@ -1,6 +1,36 @@
-/*body {
-    background-color: #fff;
-}*/
+body {
+    background-color:#fff;
+}
+#banner {
+    display:none;
+}
+prm-search-bookmark-filter .md-button.md-icon-button {
+    display:none;
+}
+#citationLinker {
+    margin-top:40px;
+}
+#fullView {
+    margin-top:40px;
+}
+prm-user-area-expandable {
+    display:none;
+}
+prm-full-view div.full-view-container prm-full-view-service-container prm-search-result-availability-line {
+    display:none !important;
+}
+li#Permalink,
+li#Print {
+    display:none !important;
+}
+prm-full-view .full-view-container {
+    border: 1px solid rgba(58,58,58,.3);
+    box-shadow: 0 2px 7px 0 rgba(58,58,58,.12);
+    background-color:#fff;
+}
+prm-save-to-favorites-button {
+    display:none;
+}
 .hollisPlus {
     display: table-cell;
 }
@@ -12,9 +42,9 @@
 }
 
 .hollisPlus prm-logo .logo-image, prm-logo img {
-    max-height: 100%;
+    /* max-height: 100%;
     height: 75px;
-    width: 110px;
+    width: 110px; */
     margin-top: 10px;
 }
 .topMenu {
@@ -58,19 +88,6 @@ a#hollisLogoTopbar {
     color:#fff;
     font-family:"Trueno";
 }
-/* new for August release , user area */
-/* prm-user-area-expandable {
-    background-color: rgba(58,58,58,.12);
-} */
-prm-user-area-expandable .md-button {
-    color:#026DB9;
-    font-weight:600;
-    font-size: 1em;
-    border-left: white solid 1px;
-}
-prm-user-area-expandable .md-button.user-button {
-    color: #026DB9;
-}
 .md-button.button-with-menu-arrow .menu-arrow:after {
     top:-20px;
     display:inline-block;
@@ -81,10 +98,6 @@ prm-full-view-cont .topbar-wrapper {
     -webkit-box-shadow: 0 5px 5px rgba(30, 30, 30, 0.1);
     box-shadow: 0 5px 5px rgba(30, 30, 30, 0.1);
 }
-/* resource icon, book cover */
-/* prm-full-view prm-brief-result-container .result-item-image {
-    display:none;
-} */
 /* nav jump menu in full display page */
 prm-full-view-cont prm-full-view .services-index-under {
     display:none;
@@ -94,7 +107,7 @@ prm-login-alma-mashup .alert-bar {
     display:none;  
 }
 prm-services-page .full-view-inner-container {
-    background-color:#f3f3f3;
+    background-color:#FFFFFF;
 }
 div#tags {
     display:none;
